@@ -37,7 +37,7 @@ default_args = {
     'on_failure_callback': slack_alert
 }
 
-with DAG('mina_test',
+with DAG('minhwa_test',
     default_args = default_args,
     description='A simple example of execute databricks job',
     schedule_interval='0 16 * * *',  
